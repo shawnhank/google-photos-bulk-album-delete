@@ -2,12 +2,13 @@
 // @name         Google Photos Bulk Album Delete
 // @namespace    https://github.com/shawnhank/google-photos-bulk-album-delete
 // @version      1.0.0
-// @description  Adds bulk album deletion controls to Google Photos. Deletes albums you own without deleting photos from your library.
+// @description  Bulk-delete Google Photos albums you own. Includes test, stop, and safety controls; does not delete photos from your library.
 // @author       Shawn Hank
 // @license      MIT
 // @match        https://photos.google.com/*
 // @homepageURL  https://github.com/shawnhank/google-photos-bulk-album-delete
 // @supportURL   https://github.com/shawnhank/google-photos-bulk-album-delete/issues
+// @compatible   chrome Tested with Tampermonkey
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
