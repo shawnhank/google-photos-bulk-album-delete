@@ -2,6 +2,26 @@
 
 A Tampermonkey/Greasemonkey userscript that adds bulk album deletion controls to the Google Photos **Albums** page.
 
+
+## Why this project exists
+
+This project came out of a real Google Photos cleanup.
+
+The first part of the cleanup was straightforward: use bulk photo-deletion tools to remove the photos from the Google Photos library. Tools we evaluated for that included:
+
+- **Google Photos Bulk Delete / GPhotos Sweeper** — Chrome extension for bulk photo deletion: https://chromewebstore.google.com/detail/google-photos-bulk-delete/fjmmjpjilaioejhjfalgknkhpognfhen
+- **Google Photos Delete Tool** — open-source bulk photo-deletion tool: https://github.com/bernardesarthur/Google-Photos-Delete-Tool
+
+After the photo library had been cleared, the Google Photos **Albums** page still contained hundreds of empty album placeholders.
+
+That exposed the second problem: Google Photos does not provide a practical bulk-delete control for albums. The normal interface requires opening the menu for each album and choosing **Delete album** individually.
+
+In the cleanup that led to this project, there were **275 remaining albums**. Deleting them one at a time was not practical, so this userscript was developed to automate the existing Google Photos album-deletion UI.
+
+The final run sent **275 album delete actions**, skipped **0**, and left the Albums page empty.
+
+> This script solves the **album cleanup** problem. It is not intended to bulk-delete photos from the photo library itself. Use a photo-deletion tool first if your goal is to completely clear a Google Photos account.
+
 ## What it does
 
 Google Photos does not provide a practical way to delete hundreds of albums at once. This script automates the existing Google Photos UI:
