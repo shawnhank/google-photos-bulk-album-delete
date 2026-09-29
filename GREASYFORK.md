@@ -2,6 +2,17 @@
 
 This repository is the canonical source for **Google Photos Bulk Album Delete**.
 
+## Published listing
+
+Greasy Fork:
+
+https://greasyfork.org/en/scripts/597987-google-photos-bulk-album-delete
+
+Status: **Published**
+
+The Greasy Fork listing is the recommended installation page. GitHub remains the canonical development source.
+
+
 ## Listing metadata
 
 **Name**
