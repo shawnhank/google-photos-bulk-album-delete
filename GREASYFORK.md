@@ -173,3 +173,22 @@ Recommended semantic versioning:
 - **Patch** — selector, timing, wording, or compatibility fixes
 - **Minor** — new features or controls
 - **Major** — material behavior changes to deletion logic
+
+
+## Source syncing
+
+Greasy Fork supports syncing both script code and Additional info from external URLs. The recommended setup for this project is:
+
+**Code sync URL**
+
+https://raw.githubusercontent.com/shawnhank/google-photos-bulk-album-delete/main/google-photos-bulk-album-delete.user.js
+
+**Additional info sync URL**
+
+https://raw.githubusercontent.com/shawnhank/google-photos-bulk-album-delete/main/greasyfork-description.md
+
+On the Greasy Fork script's **Admin** tab, configure the code source to use the raw userscript URL above and configure Additional info separately to use the raw Markdown description URL.
+
+This keeps GitHub as the canonical development source while Greasy Fork remains the public installation/update channel.
+
+Greasy Fork rewrites installed scripts' `@updateURL` and `@downloadURL` directives to its own canonical update endpoints, so users who install from Greasy Fork continue receiving updates through Greasy Fork.
