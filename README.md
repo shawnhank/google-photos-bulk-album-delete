@@ -3,6 +3,13 @@
 A Tampermonkey/Greasemonkey userscript that adds bulk album deletion controls to the Google Photos **Albums** page.
 
 
+## Install
+
+**Recommended:** [Install from Greasy Fork](https://greasyfork.org/en/scripts/597987-google-photos-bulk-album-delete)
+
+Greasy Fork provides the public install page and update path for the userscript. The GitHub repository remains the canonical source for development, issues, and version history.
+
+
 ## Why this project exists
 
 This project came out of a real Google Photos cleanup.
@@ -56,6 +63,14 @@ Google can change the Photos web interface at any time, so future UI changes may
 - Albums visible at `https://photos.google.com/albums`
 
 ## Installation
+
+### From Greasy Fork
+
+1. Install a userscript manager such as Tampermonkey.
+2. Open [Google Photos Bulk Album Delete on Greasy Fork](https://greasyfork.org/en/scripts/597987-google-photos-bulk-album-delete).
+3. Choose **Install this script**.
+4. Open Google Photos and go to **Albums**.
+5. Use **TEST ONE** before running **DELETE ALL**.
 
 ### From GitHub
 
