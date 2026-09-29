@@ -1,5 +1,9 @@
 # Google Photos Bulk Album Delete
 
+[![Greasy Fork](https://img.shields.io/badge/Install-Greasy%20Fork-red)](https://greasyfork.org/en/scripts/597987-google-photos-bulk-album-delete)
+[![GitHub release](https://img.shields.io/github/v/release/shawnhank/google-photos-bulk-album-delete)](https://github.com/shawnhank/google-photos-bulk-album-delete/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A Tampermonkey/Greasemonkey userscript that adds bulk album deletion controls to the Google Photos **Albums** page.
 
 
